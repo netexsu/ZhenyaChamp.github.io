@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+// font-family: 'Lora', serif;
+
+@font-face {
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/gothampro.ttf);
+  src: url(fonts/GothamPro.svg);
+  src: url(fonts/GothamPro.woff);
+  src: url(fonts/GothamPro.woff2);
+}
+
+
+@font-face {
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/GothamProMedium.ttf);
+  src: url(fonts/GothamPro-Medium.svg);
+  src: url(fonts/GothamPro-Medium.woff);
+  src: url(fonts/GothamPro-Medium.woff2);
+}
+
+.h1 {
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  // line-height: 51px;
+}
+
+.h2{
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 41px;
+  color: #ffff;
+}
+
+.h5{
+  font-family: 'Gotham Pro';
+  font-size: 15px;
+  color: #ffff;
+  line-height: 18px;
+}
+
+.main_title_lawyer {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 59px;
+}
+
+.subtitle_text {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 117.2%;
+}
+
+.form_h4 {
+  font-family: Gotham Pro;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #ffff;
+}
+
+.form_h5, #name, #phone {
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 117.2%;
+  color: #9CA2AA;
+}
+
+
+.btn{
+  font-family: Gotham Pro;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 117.2%;
+}
+
+.ytp1 {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  color: #4A4F55;
+}
+
+.ytp2{
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 117.2%;
+  color: #FFFFFF;
+}
+
+.work_stages_subtitle{
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.work_stages_number {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;  
+  color: #4A4F55;
+}
+
+.case_title {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+p {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 117.2%;
+  color: #ffffff;
+}
+
+.form_action_subtitle{
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 117.2%;
+  color: #9CA2AA;
+}
