@@ -203,6 +203,7 @@ a {
   margin-left: auto;
   font-family: 'gothampro';
   font-size: 22px;
+  color: rgb(255, 255, 255) !important;
   pointer-events: none !important;
   color: #fff !important;
   cursor: default !important;
@@ -267,6 +268,9 @@ input::-ms-input-placeholder {
 
 input::placeholder {
   color: #9CA2AA; }
+
+input::focus {
+  outline: none; }
 
 .form_action_subtitle {
   margin-bottom: 38px; }
@@ -668,7 +672,7 @@ p {
     margin: 0 auto;
     margin-top: 30px; }
   .main_title_text {
-    margin-top: 100px; }
+    margin-top: 70px; }
   .h1 {
     font-family: 'Lora', serif;
     font-style: normal;
@@ -728,9 +732,9 @@ p {
   .work_stages_title {
     margin-bottom: 80px; }
   .work_stages01_box, .work_stages02_box, .work_stages03_box, .work_stages04_box {
-    width: 81.4814815%;
     height: 12.5925926%;
     margin: 0 auto;
+    position: relative;
     margin-bottom: 20px;
     border: 2px solid #4A4F55;
     padding: 20px;
@@ -742,9 +746,19 @@ p {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
     .work_stages01_box::before, .work_stages02_box::before, .work_stages03_box::before, .work_stages04_box::before {
-      display: none; }
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background: #D19130;
+      position: absolute;
+      left: -6px;
+      top: 5; }
     .work_stages01_box br, .work_stages02_box br, .work_stages03_box br, .work_stages04_box br {
       display: none; }
   .work_stages_number {
@@ -766,10 +780,12 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-  .box_text_box {
-    width: 85%; }
-  .box_text01 br, .box_text02 br, .box_text03 br {
-    display: none; }
+  .box_text_gradient {
+    margin: 0px 15px 0px 0px; }
+  .box_text01, .box_text02, .box_text03 {
+    width: 76%; }
+    .box_text01 br, .box_text02 br, .box_text03 br {
+      display: none; }
   .everyday_box_formaction {
     margin-top: 70px;
     border: 2px solid #4A4F55;
