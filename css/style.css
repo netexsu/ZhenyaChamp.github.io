@@ -110,6 +110,7 @@ header {
   font-family: 'gothampro';
   font-style: normal;
   font-weight: normal;
+  font-size: 15px;
   line-height: 117.2%;
   color: #FFFFFF; }
 
@@ -126,6 +127,14 @@ header {
   font-style: normal;
   font-weight: normal;
   font-size: 17px; }
+
+.work_stages_text {
+  font-family: 'gothampro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 117.2%;
+  color: #FFFFFF; }
 
 .work_stages_number {
   font-family: 'GothamProMedium';
@@ -180,7 +189,7 @@ body {
   align-self: center; }
 
 .head_text_logo {
-  font-family: 'Gotham Pro';
+  font-family: 'gothampro';
   font-size: 17px;
   float: right;
   margin-left: 5px;
@@ -192,7 +201,7 @@ a {
 
 .head_column_number {
   margin-left: auto;
-  font-family: "Gotham Pro";
+  font-family: 'gothampro';
   font-size: 22px;
   pointer-events: none !important;
   color: #fff !important;
@@ -493,7 +502,7 @@ p {
   margin-top: 60px; }
 
 .container_box1_text_subtitle {
-  font-family: "Gotham Pro";
+  font-family: 'gothampro';
   font-weight: 400;
   font-size: 15px;
   line-height: 117.2%;
@@ -514,7 +523,7 @@ p {
   margin-bottom: 20px; }
 
 .footer_text {
-  font-family: "Gotham Pro";
+  font-family: 'gothampro';
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -522,7 +531,7 @@ p {
   color: #9CA2AA; }
 
 .politics {
-  font-family: "Gotham Pro";
+  font-family: 'gothampro';
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -742,7 +751,7 @@ p {
     margin: 0; }
   .work_stages_text {
     margin: 0;
-    font-family: Gotham Pro;
+    font-family: 'gothampro';
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
