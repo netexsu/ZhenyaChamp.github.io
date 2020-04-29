@@ -201,6 +201,12 @@ a {
   font-size: 22px;
   color: rgb(255, 255, 255); }
 
+.header_head_phone {
+  pointer-events: none !important;
+  color: #fff !important;
+  cursor: default !important;
+  text-decoration: none !important; }
+
 .head_column_menu {
   margin: 0px 195px 0px 195px;
   display: -webkit-box;
@@ -645,10 +651,6 @@ p {
   .container {
     max-width: 540px;
     margin: 0 auto; }
-  .h1 {
-    font-family: 'Lora', serif;
-    font-style: normal;
-    font-weight: normal; }
   .h2 {
     font-family: 'Lora', serif;
     font-style: normal;
@@ -664,6 +666,8 @@ p {
   .head_column_number {
     margin: 0 auto;
     margin-top: 30px; }
+  .main_title_text {
+    margin-top: 100px; }
   .h1 {
     font-family: 'Lora', serif;
     font-style: normal;
@@ -716,7 +720,7 @@ p {
     width: 83.3333333%;
     margin: 0 auto; }
   .about_header {
-    margin-top: 550px;
+    margin-top: 480px;
     margin-bottom: 20px; }
   .icon {
     margin-top: 60px; }
@@ -740,6 +744,8 @@ p {
     align-items: center; }
     .work_stages01_box::before, .work_stages02_box::before, .work_stages03_box::before, .work_stages04_box::before {
       display: none; }
+    .work_stages01_box br, .work_stages02_box br, .work_stages03_box br, .work_stages04_box br {
+      display: none; }
   .work_stages_number {
     margin: 0; }
   .work_stages_text {
@@ -761,6 +767,8 @@ p {
     align-items: center; }
   .box_text_box {
     width: 85%; }
+  .box_text01 br, .box_text02 br, .box_text03 br {
+    display: none; }
   .everyday_box_formaction {
     margin-top: 70px;
     border: 2px solid #4A4F55;
