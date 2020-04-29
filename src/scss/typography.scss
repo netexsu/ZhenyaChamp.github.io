@@ -9,6 +9,7 @@
   src: url(fonts/GothamPro.svg);
   src: url(fonts/GothamPro.woff);
   src: url(fonts/GothamPro.woff2);
+  src: url(fonts/gothampro.eot);
 }
 
 
@@ -20,6 +21,7 @@
   src: url(fonts/GothamPro-Medium.svg);
   src: url(fonts/GothamPro-Medium.woff);
   src: url(fonts/GothamPro-Medium.woff2);
+  src: url(fonts/GothamPro-Medium.eot);
 }
 
 .h1 {
@@ -66,7 +68,7 @@
   font-family: Gotham Pro;
   font-weight: 700;
   font-size: 16px;
-  line-height: 15px;
+  line-height: 117.2%;
   color: #ffff;
 }
 
@@ -95,7 +97,34 @@
   color: #4A4F55;
 }
 
-.ytp2{
+.header_ytp_dovod_text1 {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 117.2%;
+  color: #FFFFFF;
+}
+
+.header_ytp_dovod02, .header_ytp_dovod03 {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 117.2%;
+  color: #FFFFFF;
+}
+
+.work_stages_text{
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  // font-size: 17px;
+  line-height: 117.2%;
+  color: #FFFFFF;
+}
+
+.box_text01, .box_text02, .box_text03 {
   font-family: Gotham Pro;
   font-style: normal;
   font-weight: normal;

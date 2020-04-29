@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Адвокаты по уголовным делам</title>
     <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet icon" href="img/favicon.ico" type="image/x-icon"/>
   </head>
   <body>
-    <header class="header"> 
+    <header class="header id" id="company">
       <div class="container"> 
         <div class="header_head"> 
           <div class="head_column_logo">
@@ -15,11 +16,7 @@
               <div class="head_text_logo">Авангард</div>
             </div>
           </div>
-          <div class="head_column_menu">
-            <div class="header_head_text01 h5">Главная</div>
-            <div class="header_head_text02 h5">О компании</div>
-            <div class="header_head_text03 h5">Контакты</div>
-          </div>
+          <div class="head_column_menu"><a class="header_head_text01 h5" href="#company">Главная</a><a class="header_head_text02 h5" href="#aboutcompany">О компании</a><a class="header_head_text03 h5" href="#contacts">Контакты</a></div>
           <div class="head_column_number"> 
             <div class="header_head_phone">+7 (924) 439-52-55</div>
           </div>
@@ -29,35 +26,37 @@
             <div class="main_title_text h1">Профессиональная<br> помощь адвоката<br> в короткие сроки</div>
             <div class="subtitle_text">Уголовное право от А до Я <br>Защитим <span class=gold> Вас</span> и вашу свободу</div>
             <div class="header_ytp"> 
-              <div class="header_ytp_dovod01">
-                <div class="header_ytp_dovod">
-                  <div class="header_ytp_dovod_number ytp1">01</div>
-                  <div class="header_ytp_dovod_text ytp2">Приватно</div>
-                </div>
+              <div class="header_ytp_dovod">
+                <div class="header_ytp_dovod_number1 ytp1">01</div>
+                <div class="header_ytp_dovod_text1 ytp2">Приватно</div>
               </div>
               <div class="header_ytp_dovod02">
-                <div class="ytp_dovod02_number ytp1">02</div>
-                <div class="ytp_dovod02_text ytp2">Надежно</div>
+                <div class="header_ytp_dovod_number ytp1">02</div>
+                <div class="header_ytp_dovod_text ytp2">Надежно</div>
               </div>
               <div class="header_ytp_dovod03">
-                <div class="ytp_dovod03_number ytp1">03</div>
-                <div class="ytp_dovod03_text ytp2">Своевременно</div>
+                <div class="header_ytp_dovod_number ytp1">03</div>
+                <div class="header_ytp_dovod_text ytp2">Своевременно</div>
               </div>
             </div>
           </div>
           <div class="header_form_title">
             <div class="form_action_title form_h4">ЗАДАЙТЕ ВАШ ВОПРОС ОНЛАЙН</div>
             <div class="form_action_subtitle form_h5">Получите бесплатную помощь <br> нашего адвоката в течении 5 минут! </div>
-            <div class="name"><input type="text" id="name" name="Введите имя" placeholder="Введите имя" required></div>
-            <div class="name"><input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required></div>
-            <div class="form_action_button"> 
-              <button class="btn">Получить консультацию</button>
-            </div>
+            <form class="my-contact" action="back_php"><input type="hidden" name="project_name" value="http://moscow-lawyer.cf">
+<input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
+<input type="hidden" name="form_subject" value="Отправка заявки с сайта">
+              <div class="name"><input type="text" id="name" name="Введите имя" placeholder="Введите имя" required></div>
+              <div class="name"><input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required></div>
+              <div class="form_action_button"> 
+                <button class="btn">Получить консультацию</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </header>
-    <div class="screen2"> 
+    <div class="screen2" id="aboutcompany">
       <div class="container"> 
         <div class="screen2_about"> 
           <div class="about_header">
@@ -65,7 +64,7 @@
           </div>
           <div class="about_rows"> 
             <div class="about_rows_column01"><img class="icon" src="img/icon01.png" alt=""/>
-              <div class="rows_column01_text text01 h5">Авангард- это команда профессионалов. Мы любим свою работу и поэтому детально разбираем вашу задачу, подходя индивидуально</div>
+              <div class="rows_column01_text h5">Авангард- это команда профессионалов. Мы любим свою работу и поэтому детально разбираем вашу задачу, подходя индивидуально</div>
             </div>
             <div class="about_rows_column02"><img class="icon" src="img/icon02.png" alt=""/>
               <div class="rows_column01_text h5">Специализируемся исключительно на уголовном праве. Это даёт нам уникальную возможность, успешно защищать наших клиентов</div>
@@ -85,21 +84,21 @@
           <div class="work_stages"> 
             <div class="work_stages01">
               <div class="work_stages01_box">
-                <div class="work_stages_text ytp2">Оставляете заявку </div>
+                <div class="work_stages_text">Оставляете заявку </div>
                 <div class="work_stages_number">01</div>
               </div>
               <div class="work_stages02_box">
-                <div class="work_stages_text ytp2">Мы Вам перезваниваем </div>
+                <div class="work_stages_text">Мы Вам перезваниваем </div>
                 <div class="work_stages_number">02</div>
               </div>
             </div>
             <div class="work_stages02">
               <div class="work_stages03_box">
-                <div class="work_stages_text ytp2">Обозначаем цели и<br> пути их решения </div>
+                <div class="work_stages_text">Обозначаем цели и<br> пути их решения </div>
                 <div class="work_stages_number">03</div>
               </div>
               <div class="work_stages04_box">
-                <div class="work_stages_text ytp2">Работаем до победного,<br> решая вашу задачу </div>
+                <div class="work_stages_text">Работаем до победного,<br> решая вашу задачу </div>
                 <div class="work_stages_number">04</div>
               </div>
             </div>
@@ -115,20 +114,23 @@
             <div class="everyday_box_text">
               <div class="box_text_box"> 
                 <div class="box_text_gradient"></div>
-                <div class="box_text01 ytp2">Вы получите онлайн помощь Адвоката <br>через интернет в реальном времени</div>
+                <div class="box_text01">Вы получите онлайн помощь Адвоката <br>через интернет в реальном времени</div>
               </div>
               <div class="box_text_box boxes"> 
                 <div class="box_text_gradient"></div>
-                <div class="box_text02 ytp2">Мы предоставляем полный спектр услуг в<br> уголовном процессе в вашем стремлении <br>защитить себя и остаться на свободе<br> на законных основаниях.</div>
+                <div class="box_text02">Мы предоставляем полный спектр услуг в<br> уголовном процессе в вашем стремлении <br>защитить себя и остаться на свободе<br> на законных основаниях.</div>
               </div>
               <div class="box_text_box">
                 <div class="box_text_gradient"> </div>
-                <div class="box_text03 ytp2">Экстренный выезд адвоката на задержание<br> или обыск в пределах Москвы за 40 минут</div>
+                <div class="box_text03">Экстренный выезд адвоката на задержание<br> или обыск в пределах Москвы за 40 минут</div>
               </div>
             </div><hr>
             <div class="everyday_box_formaction">
               <div class="form_action_title form_h4">ЗАДАЙТЕ ВАШ ВОПРОС ОНЛАЙН</div>
               <div class="form_action_subtitle form_h5">Получите бесплатную помощь <br> нашего адвоката в течении 5 минут! </div>
+              <form class="my-contact" action="back_php"></form><input type="hidden" name="project_name" value="http://moscow-lawyer.cf">
+<input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
+<input type="hidden" name="form_subject" value="Отправка заявки с сайта">
               <div class="name"><input type="text" id="name" name="Введите имя" placeholder="Введите имя" required></div>
               <div class="name"><input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required></div>
               <div class="form_action_button"> 
@@ -188,16 +190,16 @@
       </div>
     </div>
     <div class="screen6"> 
-      <div class="container_box"> 
-        <div class="container_box1">
-          <div class="container_box1_text h2">Заказать консультацию</div>
-          <div class="container_box1_text_subtitle">Мы Вам перезвоним в течение 5 минут!</div>
-        </div>
-        <div class="container_box2">
+      <div class="container">
+        <div class="container_box"> 
+          <div class="container_box1">
+            <div class="container_box1_text h2">Заказать консультацию</div>
+            <div class="container_box1_text_subtitle">Мы Вам перезвоним в течение 5 минут!</div>
+          </div>
           <div class="container_box2_boxes">
             <div class="container_box2_boxes1"> 
               <div class="name"><input type="text" id="name" name="Введите имя" placeholder="Введите имя" required></div>
-              <div>
+              <div class="name">
                  <input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required> </div>
             </div>
             <div class="container_box2_boxes2">
@@ -212,7 +214,7 @@
         </div>
       </div>
     </div>
-    <footer class="footer"> 
+    <footer class="footer" id="contacts">
       <div class="container"> 
         <div class="footer_head"> 
           <div class="header_head footer_haeder"> 
@@ -221,11 +223,7 @@
                 <div class="head_text_logo">Авангард</div>
               </div>
             </div>
-            <div class="head_column_menu">
-              <div class="header_head_text01 h5">Главная</div>
-              <div class="header_head_text02 h5">О компании</div>
-              <div class="header_head_text03 h5">Контакты</div>
-            </div>
+            <div class="head_column_menu"><a class="header_head_text01 h5" href="#company">Главная</a><a class="header_head_text02 h5" href="#aboutcompany">О компании</a><a class="header_head_text03 h5" href="#contacts">Контакты</a></div>
             <div class="head_column_number"> 
               <div class="header_head_phone">+7 (924) 439-52-55</div>
             </div>
