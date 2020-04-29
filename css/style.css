@@ -17,21 +17,21 @@ header {
   font-family: 'Gotham Pro';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/gothampro.ttf);
-  src: url(fonts/GothamPro.svg);
-  src: url(fonts/GothamPro.woff);
-  src: url(fonts/GothamPro.woff2);
-  src: url(fonts/gothampro.eot); }
+  src: url(../fonts/gothampro.ttf);
+  src: url(../fonts/GothamPro.svg);
+  src: url(../fonts/GothamPro.woff);
+  src: url(../fonts/GothamPro.woff2);
+  src: url(../fonts/gothampro.eot); }
 
 @font-face {
   font-family: 'Gotham Pro';
   font-style: normal;
   font-weight: 700;
-  src: url(fonts/GothamProMedium.ttf);
-  src: url(fonts/GothamPro-Medium.svg);
-  src: url(fonts/GothamPro-Medium.woff);
-  src: url(fonts/GothamPro-Medium.woff2);
-  src: url(fonts/GothamPro-Medium.eot); }
+  src: url(../fonts/GothamProMedium.ttf);
+  src: url(../fonts/GothamPro-Medium.svg);
+  src: url(../fonts/GothamPro-Medium.woff);
+  src: url(../fonts/GothamPro-Medium.woff2);
+  src: url(../fonts/GothamPro-Medium.eot); }
 
 .h1 {
   font-family: 'Lora', serif;
@@ -54,41 +54,41 @@ header {
   line-height: 18px; }
 
 .main_title_lawyer {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: bold;
   font-size: 62px;
   line-height: 59px; }
 
 .subtitle_text {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 117.2%; }
 
 .form_h4 {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-weight: 700;
   font-size: 16px;
   line-height: 117.2%;
   color: rgb(255, 255, 255); }
 
 .form_h5, #name, #phone {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-weight: 400;
   font-size: 15px;
   line-height: 117.2%;
   color: #9CA2AA; }
 
 .btn {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-weight: 700;
   font-size: 16px;
   line-height: 117.2%; }
 
 .ytp1 {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -96,7 +96,7 @@ header {
   color: #4A4F55; }
 
 .header_ytp_dovod_text1 {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -104,7 +104,7 @@ header {
   color: #FFFFFF; }
 
 .header_ytp_dovod02, .header_ytp_dovod03 {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -112,14 +112,14 @@ header {
   color: #FFFFFF; }
 
 .work_stages_text {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   line-height: 117.2%;
   color: #FFFFFF; }
 
 .box_text01, .box_text02, .box_text03 {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -127,13 +127,13 @@ header {
   color: #FFFFFF; }
 
 .work_stages_subtitle {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 17px; }
 
 .work_stages_number {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
@@ -141,7 +141,7 @@ header {
   color: #4A4F55; }
 
 .case_title {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -149,7 +149,7 @@ header {
   color: #ffffff; }
 
 p {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -157,7 +157,7 @@ p {
   color: #ffffff; }
 
 .form_action_subtitle {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-weight: 400;
   font-size: 15px;
   line-height: 117.2%;
@@ -197,11 +197,8 @@ a {
 
 .head_column_number {
   margin-left: auto;
-  font-family: 'Gotham Pro';
+  font-family: "Gotham Pro";
   font-size: 22px;
-  color: rgb(255, 255, 255); }
-
-.header_head_phone {
   pointer-events: none !important;
   color: #fff !important;
   cursor: default !important;
@@ -501,7 +498,7 @@ p {
   margin-top: 60px; }
 
 .container_box1_text_subtitle {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-weight: 400;
   font-size: 15px;
   line-height: 117.2%;
@@ -522,7 +519,7 @@ p {
   margin-bottom: 20px; }
 
 .footer_text {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -530,7 +527,7 @@ p {
   color: #9CA2AA; }
 
 .politics {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;

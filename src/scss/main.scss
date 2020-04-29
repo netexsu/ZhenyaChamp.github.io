@@ -36,18 +36,16 @@ a {
 
 .head_column_number {
   margin-left: auto;
-  font-family: 'Gotham Pro';
+  font-family: "Gotham Pro";
   font-size: 22px;
-  color: #ffff;
+  // color: #ffff;
+  pointer-events:none !important;
+  color:#fff !important;
+  cursor:default !important;
+  text-decoration:none !important;
 }
 
-.header_head_phone {
-  
-    pointer-events:none !important;
-    color:#fff !important;
-    cursor:default !important;
-    text-decoration:none !important;
-}
+
 
 .head_column_menu{
   margin: 0px 195px 0px 195px;
@@ -379,7 +377,7 @@ p {margin-top: 10px;}
 }
 
 .container_box1_text_subtitle {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-weight: 400;
   font-size: 15px;
   line-height: 117.2%;
@@ -400,7 +398,7 @@ p {margin-top: 10px;}
 }
 
 .footer_text {
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -409,7 +407,7 @@ p {margin-top: 10px;}
 }
 
 .politics{
-  font-family: Gotham Pro;
+  font-family: "Gotham Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
