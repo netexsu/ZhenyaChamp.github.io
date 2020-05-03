@@ -542,6 +542,12 @@ p {
   line-height: 117.2%;
   color: #363B3F; }
 
+.politics_box {
+  opacity: 0; }
+
+.politics_box:target {
+  opacity: 1; }
+
 @media screen and (max-width: 1060px) {
   .container {
     max-width: 640px;

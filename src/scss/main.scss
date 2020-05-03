@@ -419,6 +419,13 @@ p {margin-top: 10px;}
   color: #363B3F;
 }
 
+.politics_box {
+  opacity: 0;  
+}
+.politics_box:target{
+  opacity: 1;
+}
+
 
 
 

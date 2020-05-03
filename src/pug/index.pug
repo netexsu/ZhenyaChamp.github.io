@@ -38,9 +38,9 @@ html(lang="ru")
           div.header_form_title
             div.form_action_title.form_h4 ЗАДАЙТЕ ВАШ ВОПРОС ОНЛАЙН
             div.form_action_subtitle.form_h5 Получите бесплатную помощь <br> нашего адвоката в течении 5 минут! 
-            form.my-contact(action="back_php")
+            form.my-contact(action="mail.php" method="POST")
               //- <!-- Hidden Required Fields -->
-              <input type="hidden" name="project_name" value="http://moscow-lawyer.cf">
+              <input type="hidden" name="project_name" value="moscow-lawyer">
               <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
               <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
               //- <!-- END Hidden Required Fields -->
@@ -114,19 +114,21 @@ html(lang="ru")
             div.everyday_box_formaction
               div.form_action_title.form_h4 ЗАДАЙТЕ ВАШ ВОПРОС ОНЛАЙН
               div.form_action_subtitle.form_h5 Получите бесплатную помощь <br> нашего адвоката в течении 5 минут! 
-              form.my-contact(action="back_php")
+              form.my-contact(action="mail.php" method="POST")
                 //- <!-- Hidden Required Fields -->
-              <input type="hidden" name="project_name" value="http://moscow-lawyer.cf">
-              <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
-              <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
-              //- <!-- END Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="moscow-lawyer">
+                <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
+                <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
+                //- <!-- END Hidden Required Fields -->
 
-              div.name
-                  <input type="text" id="name" name="Введите имя" placeholder="Введите имя" required>
-              div.name
-                  <input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required>
-              div.form_action_button 
-                  button.btn Получить консультацию
+                
+                
+                div.name
+                    <input type="text" id="name" name="Введите имя" placeholder="Введите имя" required>
+                div.name
+                    <input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required>
+                div.form_action_button 
+                    button.btn Получить консультацию
 
 
 
@@ -181,18 +183,26 @@ html(lang="ru")
               div.container_box1_text_subtitle Мы Вам перезвоним в течение 5 минут!
 
             div.container_box2_boxes
-                div.container_box2_boxes1 
-                  div.name
-                      <input type="text" id="name" name="Введите имя" placeholder="Введите имя" required>
-                  div.name 
-                      <input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required> 
+                    
+                form.my-contact(action="mail.php" method="POST")
+                        //- <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="moscow-lawyer">
+                        <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
+                        <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
+                        //- <!-- END Hidden Required Fields -->
+                
+                div.container_box2_boxes1
+                    div.name
+                        <input type="text" id="name" name="Введите имя" placeholder="Введите имя" required>
+                    div.name 
+                        <input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required> 
                 div.container_box2_boxes2
-                  div.name
-                      <input type="text" id="name" name="E-mail" placeholder="E-mail" required>
-                  div.name 
-                      <input type="text" id="phone" name="С какого вы города" placeholder="С какого Вы города" required>
-                  div.form_action_button.btn_box_action
-                    button.btn Получить консультацию
+                    div.name
+                        <input type="text" id="name" name="E-mail" placeholder="E-mail" required>
+                    div.name 
+                        <input type="text" id="phone" name="С какого вы города" placeholder="С какого Вы города" required>
+                    div.form_action_button.btn_box_action
+                        button.btn Получить консультацию
 
 
 
@@ -222,7 +232,11 @@ html(lang="ru")
             p.footer_text г. Москва,Столешников <br>переулок, д. 11, офис 232
           
           div.rows_box_column.rows_boxes
-            p.politics Политика конфиденциальности
+            nav.politics
+              a(href="#politic_item").politics Политика конфиденциальности
+            //- div.politics_box#politic_item fgfgfdgdfgfgdfgjndg;jgkjdfngkj
             p.politics Защита персональных данных
 
-            
+
+    link(rel="stylesheet", href="https://code.jquery.com/jquery-3.5.0.min.js")
+    link(rel="stylesheet", href="script.js")
