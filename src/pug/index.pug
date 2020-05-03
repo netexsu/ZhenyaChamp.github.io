@@ -116,7 +116,7 @@ html(lang="ru")
               div.form_action_subtitle.form_h5 Получите бесплатную помощь <br> нашего адвоката в течении 5 минут! 
               form.my-contact(action="mail.php" method="POST")
                 //- <!-- Hidden Required Fields -->
-                <input type="hidden" name="project_name" value="https://moscow-lawyer.cf">
+                <input type="hidden" name="project_name" value="https://moscow-lawyer.cf">   
                 <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
                 <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
                 //- <!-- END Hidden Required Fields -->
@@ -184,25 +184,25 @@ html(lang="ru")
 
             div.container_box2_boxes
                     
-                form.my-contact(action="mail.php" method="POST")
+                form.my-contact.contact_box(action="mail.php" method="POST")
                         //- <!-- Hidden Required Fields -->
                         <input type="hidden" name="project_name" value="moscow-lawyer">
                         <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
                         <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
                         //- <!-- END Hidden Required Fields -->
                 
-                div.container_box2_boxes1
-                    div.name
-                        <input type="text" id="name" name="Введите имя" placeholder="Введите имя" required>
-                    div.name 
-                        <input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required> 
-                div.container_box2_boxes2
-                    div.name
-                        <input type="text" id="name" name="E-mail" placeholder="E-mail" required>
-                    div.name 
-                        <input type="text" id="phone" name="С какого вы города" placeholder="С какого Вы города" required>
-                    div.form_action_button.btn_box_action
-                        button.btn Получить консультацию
+                        div.container_box2_boxes1
+                            div.name
+                                <input type="text" id="name" name="Введите имя" placeholder="Введите имя" required>
+                            div.name 
+                                <input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required> 
+                        div.container_box2_boxes2
+                            div.name
+                                <input type="text" id="e-mail" name="E-mail" placeholder="E-mail" required>
+                            div.name 
+                                <input type="text" id="adress" name="С какого вы города" placeholder="С какого Вы города" required>
+                            div.form_action_button.btn_box_action
+                                button.btn Получить консультацию
 
 
 

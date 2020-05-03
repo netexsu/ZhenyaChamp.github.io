@@ -367,7 +367,7 @@ p {margin-top: 10px;}
   // flex: 0 0 43.5%;
 } 
 
-.container_box2_boxes {
+.contact_box {
   display: flex;
   margin-top: 122px;
 }
@@ -849,23 +849,31 @@ input::placeholder {
 }
 
 .container_box2_boxes {
+  // flex-direction: column;
+  width: 75.3703704%;
+  border: 2px solid #4A4F55;
+  padding: 9.25925926%;
+
+  // margin: 0 auto;
+}
+
+.contact_box{
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   // margin-top: 70px;
-
-  border: 2px solid #4A4F55;
-  padding: 9.25925926%;
-  width: 75.3703704%;
-  // margin: 0 auto;
+ 
 }
 
+.btn_box_action{
+  margin-top: 0px;
+}
 
 input {
   color: #9CA2AA;
   width: 100%; 
-  padding: 0px 0px 10px 0px;
+  // padding: 0px 0px 10px 0px;
   background: none;
   border: none;
   
@@ -883,7 +891,7 @@ input::placeholder {
 .name {
   width: 100%;
   margin-bottom: 38px;
-  margin: 0px 0px 38px 0px;
+  margin: 0px 0px 38px 0px; 
   border-bottom: 2px solid #4A4F55;
 }
 

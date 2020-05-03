@@ -69,7 +69,7 @@ header {
   line-height: 117.2%;
   color: rgb(255, 255, 255); }
 
-.form_h5, #name, #phone {
+.form_h5, #name, #phone, #e-mail, #adress {
   font-family: 'gothampro';
   font-weight: 400;
   font-size: 15px;
@@ -493,7 +493,7 @@ p {
   font-size: 32px;
   color: #fff; }
 
-.container_box2_boxes {
+.contact_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -830,6 +830,10 @@ p {
   .container_box1_text_subtitle {
     margin-bottom: 60px; }
   .container_box2_boxes {
+    width: 75.3703704%;
+    border: 2px solid #4A4F55;
+    padding: 9.25925926%; }
+  .contact_box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -840,14 +844,12 @@ p {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto;
-    border: 2px solid #4A4F55;
-    padding: 9.25925926%;
-    width: 75.3703704%; }
+    margin: 0 auto; }
+  .btn_box_action {
+    margin-top: 0px; }
   input {
     color: #9CA2AA;
     width: 100%;
-    padding: 0px 0px 10px 0px;
     background: none;
     border: none; }
   input::-webkit-input-placeholder {
