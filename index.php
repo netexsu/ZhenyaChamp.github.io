@@ -43,7 +43,7 @@
           <div class="header_form_title">
             <div class="form_action_title form_h4">ЗАДАЙТЕ ВАШ ВОПРОС ОНЛАЙН</div>
             <div class="form_action_subtitle form_h5">Получите бесплатную помощь <br> нашего адвоката в течении 5 минут! </div>
-            <form class="my-contact" action="mail.php" method="POST"><input type="hidden" name="project_name" value="https://moscow-lawyer.cf">
+            <form class="my-contact"><input type="hidden" name="project_name" value="https://moscow-lawyer.cf">
 <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
 <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
               <div class="name"><input type="text" id="name" name="Введите имя" placeholder="Введите имя" required></div>
@@ -128,7 +128,7 @@
             <div class="everyday_box_formaction">
               <div class="form_action_title form_h4">ЗАДАЙТЕ ВАШ ВОПРОС ОНЛАЙН</div>
               <div class="form_action_subtitle form_h5">Получите бесплатную помощь <br> нашего адвоката в течении 5 минут! </div>
-              <form class="my-contact" action="mail.php" method="POST"><input type="hidden" name="project_name" value="https://moscow-lawyer.cf">   
+              <form class="my-contact"><input type="hidden" name="project_name" value="https://moscow-lawyer.cf">   
 <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
 <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
                 <div class="name"><input type="text" id="name" name="Введите имя" placeholder="Введите имя" required></div>
@@ -198,7 +198,7 @@
             <div class="container_box1_text_subtitle">Мы Вам перезвоним в течение 5 минут!</div>
           </div>
           <div class="container_box2_boxes">
-            <form class="my-contact contact_box" action="mail.php" method="POST"><input type="hidden" name="project_name" value="moscow-lawyer">
+            <form class="my-contact contact_box"><input type="hidden" name="project_name" value="moscow-lawyer">
 <input type="hidden" name="admin_email" value="alliseeisgold94@mail.ru">
 <input type="hidden" name="form_subject" value="Отправка заявки с сайта">
               <div class="container_box2_boxes1">
@@ -254,7 +254,7 @@
         </div>
       </div>
     </footer>
-    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.5.0.min.js"/>
+    <link rel="stylesheet" href="jquery-3.5.0.min.js"/>
     <link rel="stylesheet" href="script.js"/>
   </body>
 </html>
