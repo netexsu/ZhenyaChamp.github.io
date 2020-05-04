@@ -134,7 +134,7 @@
                 <div class="name"><input type="text" id="name" name="Введите имя" placeholder="Введите имя" required></div>
                 <div class="name"><input type="text" id="phone" name="Номер телефона" placeholder="Номер телефона" required></div>
                 <div class="form_action_button"> 
-                  <button class="btn">Получить консультацию</button>
+                  <button class="btn">Получить консультацию    </button>
                 </div>
               </form>
             </div>
