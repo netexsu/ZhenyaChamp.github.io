@@ -542,12 +542,6 @@ p {
   line-height: 117.2%;
   color: #363B3F; }
 
-.politics_box {
-  opacity: 0; }
-
-.politics_box:target {
-  opacity: 1; }
-
 @media screen and (max-width: 1060px) {
   .container {
     max-width: 640px;
@@ -894,3 +888,18 @@ p {
     -ms-flex-align: center;
     align-items: center;
     text-align: center; } }
+
+#politic_item {
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  font-family: 'gothampro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 117.2%; }
+
+#politic_item:target {
+  display: block; }

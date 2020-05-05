@@ -419,12 +419,6 @@ p {margin-top: 10px;}
   color: #363B3F;
 }
 
-.politics_box {
-  opacity: 0;  
-}
-.politics_box:target{
-  opacity: 1;
-}
 
 
 
@@ -939,6 +933,26 @@ input::placeholder {
 
 }
 
+
+
+#politic_item {
+  // text-decoration: underline;
+  background-color: white;
+  // position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  font-family: 'gothampro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 117.2%;
+}
+
+#politic_item:target{
+  display: block;   
+}
 
 
 
